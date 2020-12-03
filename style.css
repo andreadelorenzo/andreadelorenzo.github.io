@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	background-image: url("img/oh-la-la.jpeg");
+	background-image: url("img/oh-la-la.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -9,7 +9,8 @@ html {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+	font-family: 'Patrick Hand', cursive;
 }
 *,
 *::before,
@@ -23,11 +24,17 @@ svg {
 	border-radius: 50%;
 	width: 200px;
 	margin-bottom: 50px;
+} */
+.img {
+	background: rgba(0, 0, 0, 0.089);
+	padding: 20px;
+	border-radius: 50%;
+	margin-bottom: 50px;
 }
 .wrapper {
 	padding: 20px;
 	max-width: 350px;
-	background: rgba(255,255,255,0.95);
+	background: rgba(255, 255, 255, 0.787);
 	box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
 }
 h2 {
@@ -55,11 +62,11 @@ h2 {
 	display: none;
 }
 .plates input + label::before {
-	content: "⬜";
+	content: "👨‍🍳";
 	margin-right: 10px;
 }
 .plates input:checked + label::before {
-	content: "🌮";
+	content: "✔🍣";
 }
 .plates input:checked + label span {
 	text-decoration: line-through;
